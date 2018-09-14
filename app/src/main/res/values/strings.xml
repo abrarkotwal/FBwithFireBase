@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FB Demo</string>
+    <string name="passowrd">Enter Password</string>
+    <string name="show_pwd">Show Password</string>
+    <string name="login">LOGIN</string>
+    <string name="email">Enter Email/UserName</string>
+    <string name="hide_pwd">Hide Password</string>
+
+    <array name="genres">
+        <item name="rock">Rock</item>
+        <item name="pop">Pop</item>
+        <item name="jazz">Jazz</item>
+        <item name="sufi">Sufi</item>
+        <item name="folk">Folk</item>
+    </array>
+
+    <string name="action_settings">Settings</string>
+</resources>

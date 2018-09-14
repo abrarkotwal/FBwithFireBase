@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.AddPostActivity"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text"
+        android:textColor="@color/text"
+        android:hint="Enter Title"
+        android:id="@+id/etTitle"
+        android:layout_margin="6dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text"
+        android:textColor="@color/text"
+        android:hint="Enter Description"
+        android:id="@+id/etDescription"
+        android:layout_margin="6dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text"
+        android:textColor="@color/text"
+        android:hint="Enter Image Url"
+        android:id="@+id/etImageUrl"
+        android:layout_margin="6dp"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_button"
+        android:text="POST"
+        android:textSize="@dimen/text"
+        android:textStyle="bold"
+        android:textColor="@color/white_text"
+        android:id="@+id/btnPost"/>
+</LinearLayout>
